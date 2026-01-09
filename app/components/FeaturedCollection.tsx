@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { getBasePath } from '../utils/basePath';
 
 const PRODUCTS = [
     {
@@ -67,7 +68,7 @@ export default function FeaturedCollection() {
                         <div key={product.id} className="group relative cursor-pointer">
                             <div className="relative aspect-[3/4] overflow-hidden bg-brand-beige">
                                 <Image
-                                    src={product.image}
+                                    src={product.image.startsWith('http') ? product.image : `${getBasePath()}${product.image}`}
                                     alt={product.name}
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-105"
