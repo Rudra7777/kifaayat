@@ -370,7 +370,7 @@ export default async function ProductPage({ params }: Props) {
                     <div className="sticky top-0 lg:static z-0 bg-brand-beige">
                         <div className="relative aspect-[4/5] w-full overflow-hidden bg-brand-brown/5">
                             <Image
-                                src={product.images[0].startsWith('http') ? product.images[0] : `${getBasePath()}${product.images[0]}`}
+                                src={product.images[0]}
                                 alt={product.name}
                                 fill
                                 className="object-cover"
@@ -381,10 +381,7 @@ export default async function ProductPage({ params }: Props) {
                         <div className="hidden lg:flex gap-4 mt-6">
                             {product.images.map((img: string, i: number) => (
                                 <div key={i} className={`relative h-24 w-24 overflow-hidden border ${i === 0 ? 'border-brand-terracotta' : 'border-transparent'} cursor-pointer opacity-90 hover:opacity-100`}>
-                                    <Image
-                                        src={img.startsWith('http') ? img : `${getBasePath()}${img}`}
-                                        alt="Detail" fill className="object-cover"
-                                    />
+                                    <Image src={img} alt="Detail" fill className="object-cover" />
                                 </div>
                             ))}
                         </div>
