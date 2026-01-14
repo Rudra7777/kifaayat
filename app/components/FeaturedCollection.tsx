@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { getBasePath } from '../utils/basePath';
+
 
 const PRODUCTS = [
     {

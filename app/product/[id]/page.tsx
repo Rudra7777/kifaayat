@@ -362,9 +362,9 @@ export default async function ProductPage({ params }: Props) {
             <div className="mx-auto max-w-7xl px-0 md:px-6 md:pt-12">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-16 items-start">
 
-                    import {getBasePath} from '../../utils/basePath';
 
-                    // ... (existing content)
+
+
 
                     {/* 1. HERO - LEFT COLUMN (GALLERY) */}
                     <div className="sticky top-0 lg:static z-0 bg-brand-beige">

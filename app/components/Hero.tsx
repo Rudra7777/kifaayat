@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getBasePath } from '../utils/basePath';
+
 
 export default function Hero() {
     return (
@@ -8,7 +8,7 @@ export default function Hero() {
             <div
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                 style={{
-                    backgroundImage: `url("${getBasePath()}/images/hero.png")`,
+                    backgroundImage: 'url("/images/hero.png")',
                 }}
             >
                 <div className="absolute inset-0 bg-black/50" /> {/* Darker overlay for text readability */}
