@@ -1,4 +1,6 @@
-import React from 'react';
+'use client';
+
+import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -10,7 +12,8 @@ const PRODUCTS = [
         price: "₹2,450",
         image: "/images/lamp.png",
         tag: "One-of-a-kind",
-        desc: "Handcrafted • locally sourced"
+        desc: "Handcrafted • locally sourced",
+        category: "Lighting"
     },
     {
         id: 2,
@@ -18,7 +21,8 @@ const PRODUCTS = [
         price: "₹1,850",
         image: "/images/cushion.png",
         tag: "Limited Stock",
-        desc: "Hand-stitched wool"
+        desc: "Hand-stitched wool",
+        category: "Showpieces"
     },
     {
         id: 3,
@@ -26,7 +30,8 @@ const PRODUCTS = [
         price: "₹3,200",
         image: "/images/vase.png",
         tag: "One-of-a-kind",
-        desc: "Oxidized finish"
+        desc: "Oxidized finish",
+        category: "Showpieces"
     },
     {
         id: 4,
@@ -34,23 +39,26 @@ const PRODUCTS = [
         price: "₹1,600",
         image: "/images/artisan.png",
         tag: "Artisan made",
-        desc: "Teak wood"
+        desc: "Teak wood",
+        category: "Showpieces"
     },
     {
         id: 5,
         name: "Ceramic Pickle Jar",
         price: "₹950",
-        image: "/images/jar.png", // FIXED: Local generated image
+        image: "/images/jar.png",
         tag: "Vintage",
-        desc: "Jaipur pottery"
+        desc: "Jaipur pottery",
+        category: "Showpieces"
     },
     {
         id: 6,
         name: "Woven Jute Wall Hanging",
         price: "₹2,100",
-        image: "/images/wall_hanging.png", // FIXED: Local generated image
+        image: "/images/wall_hanging.png",
         tag: "One-of-a-kind",
-        desc: "Natural fibers"
+        desc: "Natural fibers",
+        category: "Wall Art"
     },
     // --- NEW PRODUCTS ---
     {
@@ -59,7 +67,8 @@ const PRODUCTS = [
         price: "₹3,800",
         image: "/images/lamp_2.png",
         tag: "Timeless",
-        desc: "Warm ambient light"
+        desc: "Warm ambient light",
+        category: "Lighting"
     },
     {
         id: 8,
@@ -67,7 +76,8 @@ const PRODUCTS = [
         price: "₹1,450",
         image: "/images/lamp_3.png",
         tag: "Handcrafted",
-        desc: "Stained glass work"
+        desc: "Stained glass work",
+        category: "Lighting"
     },
     {
         id: 9,
@@ -75,7 +85,8 @@ const PRODUCTS = [
         price: "₹4,200",
         image: "/images/wall_hanging_2.png",
         tag: "Statement Piece",
-        desc: "Vibrant embroidery"
+        desc: "Vibrant embroidery",
+        category: "Wall Art"
     },
     {
         id: 10,
@@ -83,7 +94,8 @@ const PRODUCTS = [
         price: "₹5,500",
         image: "/images/mirror_1.png",
         tag: "Rare Find",
-        desc: "Intricate woodwork"
+        desc: "Intricate woodwork",
+        category: "Mirrors"
     },
     {
         id: 11,
@@ -91,11 +103,20 @@ const PRODUCTS = [
         price: "₹3,100",
         image: "/images/mirror_2.png",
         tag: "Vintage Style",
-        desc: "Rustic elegance"
+        desc: "Rustic elegance",
+        category: "Mirrors"
     }
 ];
 
+const CATEGORIES = ["All", "Lighting", "Wall Art", "Mirrors", "Showpieces"];
+
 export default function CollectionPage() {
+    const [selectedCategory, setSelectedCategory] = useState("All");
+
+    const filteredProducts = selectedCategory === "All"
+        ? PRODUCTS
+        : PRODUCTS.filter(p => p.category === selectedCategory);
+
     return (
         <main className="min-h-screen bg-brand-beige text-brand-brown font-sans selection:bg-brand-terracotta selection:text-white">
 
@@ -116,19 +137,20 @@ export default function CollectionPage() {
                 </div>
             </section>
 
-            {/* 3. OPTIONAL FILTER BAR (NON-FUNCTIONAL) */}
+            {/* 3. FUNCTIONAL FILTER BAR */}
             <div className="border-y border-brand-brown/10 mb-20 sticky top-0 bg-brand-beige/95 backdrop-blur-sm z-30 shadow-sm">
                 <div className="mx-auto max-w-7xl px-6 py-4 flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8">
                     <span className="text-sm font-medium text-brand-dark/60 uppercase tracking-widest hidden md:block">
                         Browse by category:
                     </span>
                     <div className="flex gap-3 overflow-x-auto pb-2 md:pb-0 w-full md:w-auto no-scrollbar justify-center">
-                        {["All", "Lighting", "Wall Art", "Mirrors", "Showpieces"].map((cat, i) => (
+                        {CATEGORIES.map((cat) => (
                             <button
                                 key={cat}
+                                onClick={() => setSelectedCategory(cat)}
                                 className={`px-5 py-2 rounded-full text-sm font-medium transition-all whitespace-nowrap 
-                                    ${i === 0
-                                        ? 'bg-brand-dark text-brand-beige'
+                                    ${selectedCategory === cat
+                                        ? 'bg-brand-dark text-brand-beige shadow-md'
                                         : 'bg-transparent text-brand-brown/70 hover:bg-brand-brown/5 hover:text-brand-dark'
                                     }`}
                             >
@@ -140,10 +162,10 @@ export default function CollectionPage() {
             </div>
 
             {/* 4. PRODUCT GRID */}
-            <section className="px-6 mb-32">
+            <section className="px-6 mb-32 min-h-[500px]">
                 <div className="mx-auto max-w-7xl">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8 gap-y-16">
-                        {PRODUCTS.map((product) => (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8 gap-y-16 animate-fade-in-up">
+                        {filteredProducts.map((product) => (
                             <Link href={`/product/${product.id}`} key={product.id} className="group cursor-pointer flex flex-col">
                                 <article className="flex flex-col h-full">
                                     {/* Image Container */}
@@ -180,6 +202,12 @@ export default function CollectionPage() {
                             </Link>
                         ))}
                     </div>
+
+                    {filteredProducts.length === 0 && (
+                        <div className="text-center py-20 text-brand-brown/60">
+                            No products found in this category.
+                        </div>
+                    )}
                 </div>
             </section>
 
