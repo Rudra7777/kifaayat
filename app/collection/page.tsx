@@ -9,7 +9,7 @@ const PRODUCTS = [
     {
         id: 1,
         name: "Vintage Brass Oil Lamp",
-        price: "₹2,450",
+        price: "₹999",
         image: "/images/lamp.png",
         tag: "One-of-a-kind",
         desc: "Handcrafted • locally sourced",
@@ -18,7 +18,7 @@ const PRODUCTS = [
     {
         id: 2,
         name: "Kashmiri Embroidered Cushion",
-        price: "₹1,850",
+        price: "₹899",
         image: "/images/cushion.png",
         tag: "Limited Stock",
         desc: "Hand-stitched wool",
@@ -27,7 +27,7 @@ const PRODUCTS = [
     {
         id: 3,
         name: "Antique Copper Vase",
-        price: "₹3,200",
+        price: "₹1,299",
         image: "/images/vase.png",
         tag: "One-of-a-kind",
         desc: "Oxidized finish",
@@ -36,7 +36,7 @@ const PRODUCTS = [
     {
         id: 4,
         name: "Hand-Carved Wooden Tray",
-        price: "₹1,600",
+        price: "₹799",
         image: "/images/artisan.png",
         tag: "Artisan made",
         desc: "Teak wood",
@@ -45,7 +45,7 @@ const PRODUCTS = [
     {
         id: 5,
         name: "Ceramic Pickle Jar",
-        price: "₹950",
+        price: "₹499",
         image: "/images/jar.png",
         tag: "Vintage",
         desc: "Jaipur pottery",
@@ -54,7 +54,7 @@ const PRODUCTS = [
     {
         id: 6,
         name: "Woven Jute Wall Hanging",
-        price: "₹2,100",
+        price: "₹899",
         image: "/images/wall_hanging.png",
         tag: "One-of-a-kind",
         desc: "Natural fibers",
@@ -64,7 +64,7 @@ const PRODUCTS = [
     {
         id: 7,
         name: "Etched Brass Table Lamp",
-        price: "₹3,800",
+        price: "₹1,499",
         image: "/images/lamp_2.png",
         tag: "Timeless",
         desc: "Warm ambient light",
@@ -73,7 +73,7 @@ const PRODUCTS = [
     {
         id: 8,
         name: "Mosaic Glass Lantern",
-        price: "₹1,450",
+        price: "₹699",
         image: "/images/lamp_3.png",
         tag: "Handcrafted",
         desc: "Stained glass work",
@@ -82,7 +82,7 @@ const PRODUCTS = [
     {
         id: 9,
         name: "Rajasthani Fabric Wall Art",
-        price: "₹4,200",
+        price: "₹1,399",
         image: "/images/wall_hanging_2.png",
         tag: "Statement Piece",
         desc: "Vibrant embroidery",
@@ -91,7 +91,7 @@ const PRODUCTS = [
     {
         id: 10,
         name: "Carved Wooden Mirror",
-        price: "₹5,500",
+        price: "₹1,499",
         image: "/images/mirror_1.png",
         tag: "Rare Find",
         desc: "Intricate woodwork",
@@ -100,7 +100,7 @@ const PRODUCTS = [
     {
         id: 11,
         name: "Sunburst Brass Mirror",
-        price: "₹3,100",
+        price: "₹1,299",
         image: "/images/mirror_2.png",
         tag: "Vintage Style",
         desc: "Rustic elegance",

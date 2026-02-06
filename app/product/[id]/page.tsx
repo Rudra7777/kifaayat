@@ -44,7 +44,7 @@ const PRODUCTS_DATA: ProductsData = {
     1: {
         id: 1,
         name: "Vintage Brass Oil Lamp",
-        price: "₹2,450",
+        price: "₹999",
         tag: "One-of-a-kind • Artisan made",
         availability: "Only 1 piece available",
         images: ["/images/lamp.png", "/images/lamp_2.png"],
@@ -71,7 +71,7 @@ const PRODUCTS_DATA: ProductsData = {
     2: {
         id: 2,
         name: "Kashmiri Embroidered Cushion",
-        price: "₹1,850",
+        price: "₹899",
         tag: "Limited Stock",
         availability: "3 pieces available",
         images: ["/images/cushion.png", "/images/wall_hanging_2.png"],
@@ -97,7 +97,7 @@ const PRODUCTS_DATA: ProductsData = {
     3: {
         id: 3,
         name: "Antique Copper Vase",
-        price: "₹3,200",
+        price: "₹1,299",
         tag: "One-of-a-kind",
         availability: "Only 1 piece available",
         images: ["/images/vase.png"],
@@ -123,7 +123,7 @@ const PRODUCTS_DATA: ProductsData = {
     4: {
         id: 4,
         name: "Hand-Carved Wooden Tray",
-        price: "₹1,600",
+        price: "₹799",
         tag: "Artisan made",
         availability: "2 pieces available",
         images: ["/images/artisan.png"],
@@ -149,7 +149,7 @@ const PRODUCTS_DATA: ProductsData = {
     5: {
         id: 5,
         name: "Ceramic Pickle Jar",
-        price: "₹950",
+        price: "₹499",
         tag: "Vintage",
         availability: "Only 1 piece available",
         images: ["/images/jar.png"],
@@ -175,7 +175,7 @@ const PRODUCTS_DATA: ProductsData = {
     6: {
         id: 6,
         name: "Woven Jute Wall Hanging",
-        price: "₹2,100",
+        price: "₹899",
         tag: "One-of-a-kind",
         availability: "Only 1 piece available",
         images: ["/images/wall_hanging.png"],
@@ -201,7 +201,7 @@ const PRODUCTS_DATA: ProductsData = {
     7: {
         id: 7,
         name: "Etched Brass Table Lamp",
-        price: "₹3,800",
+        price: "₹1,499",
         tag: "Timeless",
         availability: "Only 1 piece available",
         images: ["/images/lamp_2.png"],
@@ -227,7 +227,7 @@ const PRODUCTS_DATA: ProductsData = {
     8: {
         id: 8,
         name: "Mosaic Glass Lantern",
-        price: "₹1,450",
+        price: "₹699",
         tag: "Handcrafted",
         availability: "5 pieces available",
         images: ["/images/lamp_3.png"],
@@ -253,7 +253,7 @@ const PRODUCTS_DATA: ProductsData = {
     9: {
         id: 9,
         name: "Rajasthani Fabric Wall Art",
-        price: "₹4,200",
+        price: "₹1,399",
         tag: "Statement Piece",
         availability: "Only 1 piece available",
         images: ["/images/wall_hanging_2.png"],
@@ -279,7 +279,7 @@ const PRODUCTS_DATA: ProductsData = {
     10: {
         id: 10,
         name: "Carved Wooden Mirror",
-        price: "₹5,500",
+        price: "₹1,499",
         tag: "Rare Find",
         availability: "Only 1 piece available",
         images: ["/images/mirror_1.png"],
@@ -305,7 +305,7 @@ const PRODUCTS_DATA: ProductsData = {
     11: {
         id: 11,
         name: "Sunburst Brass Mirror",
-        price: "₹3,100",
+        price: "₹1,299",
         tag: "Vintage Style",
         availability: "2 pieces available",
         images: ["/images/mirror_2.png"],
