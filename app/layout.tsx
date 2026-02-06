@@ -42,7 +42,7 @@ export default function RootLayout({
                     <Footer />
                 </CartProvider>
             </body>
-            <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID || ''} />
+            <GoogleAnalytics gaId="G-R609L6TTTB" />
         </html>
     );
 }
