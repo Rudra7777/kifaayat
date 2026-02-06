@@ -6,42 +6,42 @@ const PRODUCTS = [
     {
         id: 5,
         name: "Ceramic Pickle Jar",
-        price: "₹ 950",
+        price: "₹ 499",
         image: "/images/jar.png",
         tag: "Vintage"
     },
     {
         id: 1,
         name: "Vintage Brass Oil Lamp",
-        price: "₹ 2,450",
+        price: "₹ 999",
         image: "/images/lamp.png",
         tag: "One-of-a-kind"
     },
     {
         id: 10,
         name: "Carved Wooden Mirror",
-        price: "₹ 5,500",
+        price: "₹ 1,499",
         image: "/images/mirror_1.png",
         tag: "Rare Find"
     },
     {
         id: 4,
         name: "Hand-Carved Wooden Tray",
-        price: "₹ 1,600",
+        price: "₹ 799",
         image: "/images/artisan.png",
         tag: "Artisan made"
     },
     {
         id: 2,
         name: "Kashmiri Embroidered Cushion",
-        price: "₹ 1,850",
+        price: "₹ 899",
         image: "/images/cushion.png",
         tag: "Limited Stock"
     },
     {
         id: 11,
         name: "Sunburst Brass Mirror",
-        price: "₹ 3,100",
+        price: "₹ 1,299",
         image: "/images/mirror_2.png",
         tag: "Vintage Style"
     }
