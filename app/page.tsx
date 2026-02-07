@@ -15,7 +15,6 @@ export default function Home() {
             <Process />
             <FeaturedCollection />
             <EmotionalSection />
-            <Footer />
         </main>
     );
 }
