@@ -327,7 +327,57 @@ const PRODUCTS_DATA: ProductsData = {
             finish: "Brushed Brass",
             care: "Brass polish to maintain shine."
         }
-    }
+    },
+    // --- BATCH 2 NEW PRODUCTS (Generic Fallback Data for brevity checking) ---
+    ...Object.fromEntries(
+        [
+            { id: 12, name: "Hand-Beaten Copper Pendant", price: "₹1,299", img: "/images/lamp.png" },
+            { id: 13, name: "Terracotta Table Lamp", price: "₹899", img: "/images/lamp_2.png" },
+            { id: 14, name: "Cutwork Iron Lantern", price: "₹799", img: "/images/lamp_3.png" },
+            { id: 15, name: "Standing Brass Diya", price: "₹1,499", img: "/images/lamp.png" },
+            { id: 16, name: "Amber Glass Hanging Light", price: "₹1,199", img: "/images/lamp_2.png" },
+            { id: 17, name: "Marble Lotus Bowl", price: "₹999", img: "/images/vase.png" },
+            { id: 18, name: "Wooden Spice Box", price: "₹1,299", img: "/images/artisan.png" },
+            { id: 19, name: "Brass Elephant Figurine", price: "₹699", img: "/images/jar.png" },
+            { id: 20, name: "Painted Wooden Chowki", price: "₹1,499", img: "/images/artisan.png" },
+            { id: 21, name: "Terracotta Water Jug", price: "₹599", img: "/images/jar.png" },
+            { id: 22, name: "Madhubani Painting", price: "₹1,199", img: "/images/wall_hanging.png" },
+            { id: 23, name: "Bamboo Wall Fan", price: "₹699", img: "/images/wall_hanging_2.png" },
+            { id: 24, name: "Kalamkari Fabric Panel", price: "₹1,299", img: "/images/wall_hanging.png" },
+            { id: 25, name: "Vintage Key Holder", price: "₹899", img: "/images/wall_hanging_2.png" },
+            { id: 26, name: "Hand-Painted Wooden Mask", price: "₹1,399", img: "/images/wall_hanging.png" },
+            { id: 27, name: "Octagonal Brass Mirror", price: "₹1,499", img: "/images/mirror_1.png" },
+            { id: 28, name: "Hand-Painted Mirror Frame", price: "₹1,199", img: "/images/mirror_2.png" },
+            { id: 29, name: "Jute Rope Round Mirror", price: "₹999", img: "/images/mirror_1.png" },
+            { id: 30, name: "Archway Wall Mirror", price: "₹1,299", img: "/images/mirror_2.png" },
+            { id: 31, name: "Small Travel Mirror", price: "₹499", img: "/images/mirror_1.png" }
+        ].map(item => [
+            item.id,
+            {
+                id: item.id,
+                name: item.name,
+                price: item.price,
+                tag: "New Arrival",
+                availability: "In Stock",
+                images: [item.img],
+                story: {
+                    headline: "Fresh from the artisan",
+                    content: ["This piece was recently added to our collection, sourced directly from local craftsmen. It embodies the dedication and skill of traditional Indian artistry."]
+                },
+                pricingContext: {
+                    headline: "Fair Value",
+                    content: "Priced to support the artisan community while keeping heritage decor accessible."
+                },
+                details: {
+                    material: "Mixed Media",
+                    dimensions: "Standard",
+                    weight: "1 kg",
+                    finish: "Handcrafted",
+                    care: "Wipe with soft cloth."
+                }
+            }
+        ])
+    )
 };
 
 type Props = {
