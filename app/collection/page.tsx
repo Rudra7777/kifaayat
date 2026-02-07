@@ -60,14 +60,14 @@ const PRODUCTS = [
         desc: "Natural fibers",
         category: "Wall Art"
     },
-    // --- NEW PRODUCTS ---
+    // --- NEW PRODUCTS (Batch 1) ---
     {
         id: 7,
         name: "Etched Brass Table Lamp",
         price: "₹1,499",
         image: "/images/lamp_2.png",
         tag: "Timeless",
-        desc: "Warm ambient light",
+        desc: "Warm ambient light with etched detailing",
         category: "Lighting"
     },
     {
@@ -76,7 +76,7 @@ const PRODUCTS = [
         price: "₹699",
         image: "/images/lamp_3.png",
         tag: "Handcrafted",
-        desc: "Stained glass work",
+        desc: "Vibrant stained glass work",
         category: "Lighting"
     },
     {
@@ -85,7 +85,7 @@ const PRODUCTS = [
         price: "₹1,399",
         image: "/images/wall_hanging_2.png",
         tag: "Statement Piece",
-        desc: "Vibrant embroidery",
+        desc: "Antique textile embroidery",
         category: "Wall Art"
     },
     {
@@ -94,7 +94,7 @@ const PRODUCTS = [
         price: "₹1,499",
         image: "/images/mirror_1.png",
         tag: "Rare Find",
-        desc: "Intricate woodwork",
+        desc: "Intricate floral woodwork",
         category: "Mirrors"
     },
     {
@@ -103,34 +103,60 @@ const PRODUCTS = [
         price: "₹1,299",
         image: "/images/mirror_2.png",
         tag: "Vintage Style",
-        desc: "Rustic elegance",
+        desc: "Retro brass sunburst design",
         category: "Mirrors"
     },
     // --- BATCH 2 (Requested by User) ---
     // Lighting
-    { id: 12, name: "Hand-Beaten Copper Pendant", price: "₹1,299", image: "/images/lamp.png", tag: "Artisan", desc: "Warm glow", category: "Lighting" },
-    { id: 13, name: "Terracotta Table Lamp", price: "₹899", image: "/images/lamp_2.png", tag: "Earthy", desc: "Natural finish", category: "Lighting" },
-    { id: 14, name: "Cutwork Iron Lantern", price: "₹799", image: "/images/lamp_3.png", tag: "Rustic", desc: "Shadow play", category: "Lighting" },
-    { id: 15, name: "Standing Brass Diya", price: "₹1,499", image: "/images/lamp.png", tag: "Traditional", desc: "Ceremonial", category: "Lighting" },
-    { id: 16, name: "Amber Glass Hanging Light", price: "₹1,199", image: "/images/lamp_2.png", tag: "Retro", desc: "Textured glass", category: "Lighting" },
+    { id: 12, name: "Hand-Beaten Copper Pendant", price: "₹1,299", image: "/images/lamp.png", tag: "Artisan", desc: "Hammered finish, warm glow", category: "Lighting" },
+    { id: 13, name: "Terracotta Table Lamp", price: "₹899", image: "/images/jar.png", tag: "Earthy", desc: "Natural clay finish base", category: "Lighting" },
+    { id: 14, name: "Cutwork Iron Lantern", price: "₹799", image: "/images/lamp_3.png", tag: "Rustic", desc: "Intricate shadow patterns", category: "Lighting" },
+    { id: 15, name: "Standing Brass Diya", price: "₹1,499", image: "/images/lamp.png", tag: "Traditional", desc: "Ceremonial oil lamp", category: "Lighting" },
+    { id: 16, name: "Amber Glass Hanging Light", price: "₹1,199", image: "/images/lamp_2.png", tag: "Retro", desc: "Vintage honey-colored glass", category: "Lighting" },
     // Showpieces
-    { id: 17, name: "Marble Lotus Bowl", price: "₹999", image: "/images/vase.png", tag: "Classic", desc: "Agra marble", category: "Showpieces" },
-    { id: 18, name: "Wooden Spice Box", price: "₹1,299", image: "/images/artisan.png", tag: "Essential", desc: "Kitchen staple", category: "Showpieces" },
-    { id: 19, name: "Brass Elephant Figurine", price: "₹699", image: "/images/jar.png", tag: "Lucky", desc: "Solid brass", category: "Showpieces" },
-    { id: 20, name: "Painted Wooden Chowki", price: "₹1,499", image: "/images/artisan.png", tag: "Decor", desc: "Low stool", category: "Showpieces" },
-    { id: 21, name: "Terracotta Water Jug", price: "₹599", image: "/images/jar.png", tag: "Cooling", desc: "Clay fired", category: "Showpieces" },
+    { id: 17, name: "Marble Lotus Bowl", price: "₹999", image: "/images/vase.png", tag: "Classic", desc: "Hand-carved white marble", category: "Showpieces" },
+    { id: 18, name: "Wooden Spice Box", price: "₹1,299", image: "/images/artisan.png", tag: "Essential", desc: "Teak wood with brass latch", category: "Showpieces" },
+    { id: 19, name: "Brass Elephant Figurine", price: "₹699", image: "/images/jar.png", tag: "Lucky", desc: "Solid brass casting", category: "Showpieces" },
+    { id: 20, name: "Painted Wooden Chowki", price: "₹1,499", image: "/images/artisan.png", tag: "Decor", desc: "Low stool with hand-painting", category: "Showpieces" },
+    { id: 21, name: "Terracotta Water Jug", price: "₹599", image: "/images/jar.png", tag: "Cooling", desc: "Traditional clay fired jug", category: "Showpieces" },
     // Wall Art
-    { id: 22, name: "Madhubani Painting", price: "₹1,199", image: "/images/wall_hanging.png", tag: "Folk Art", desc: "Hand painted", category: "Wall Art" },
-    { id: 23, name: "Bamboo Wall Fan", price: "₹699", image: "/images/wall_hanging_2.png", tag: "Natural", desc: "Woven split cane", category: "Wall Art" },
-    { id: 24, name: "Kalamkari Fabric Panel", price: "₹1,299", image: "/images/wall_hanging.png", tag: "Textile", desc: "Vegetable dye", category: "Wall Art" },
-    { id: 25, name: "Vintage Key Holder", price: "₹899", image: "/images/wall_hanging_2.png", tag: "Useful", desc: "Reclaimed wood", category: "Wall Art" },
-    { id: 26, name: "Hand-Painted Wooden Mask", price: "₹1,399", image: "/images/wall_hanging.png", tag: "Cultural", desc: "Wall accent", category: "Wall Art" },
+    { id: 22, name: "Madhubani Painting", price: "₹1,199", image: "/images/wall_hanging.png", tag: "Folk Art", desc: "Hand painted on handmade paper", category: "Wall Art" },
+    { id: 23, name: "Bamboo Wall Fan", price: "₹699", image: "/images/wall_hanging_2.png", tag: "Natural", desc: "Woven split cane texture", category: "Wall Art" },
+    { id: 24, name: "Kalamkari Fabric Panel", price: "₹1,299", image: "/images/wall_hanging.png", tag: "Textile", desc: "Natural dye tree of life", category: "Wall Art" },
+    { id: 25, name: "Vintage Key Holder", price: "₹899", image: "/images/wall_hanging_2.png", tag: "Useful", desc: "Reclaimed wood with hooks", category: "Wall Art" },
+    { id: 26, name: "Hand-Painted Wooden Mask", price: "₹1,399", image: "/images/wall_hanging.png", tag: "Cultural", desc: "Tribal art wall accent", category: "Wall Art" },
     // Mirrors
-    { id: 27, name: "Octagonal Brass Mirror", price: "₹1,499", image: "/images/mirror_1.png", tag: "Geometric", desc: "Gold finish", category: "Mirrors" },
-    { id: 28, name: "Hand-Painted Mirror Frame", price: "₹1,199", image: "/images/mirror_2.png", tag: "Bright", desc: "Floral motif", category: "Mirrors" },
-    { id: 29, name: "Jute Rope Round Mirror", price: "₹999", image: "/images/mirror_1.png", tag: "Coastal", desc: "Natural texture", category: "Mirrors" },
-    { id: 30, name: "Archway Wall Mirror", price: "₹1,299", image: "/images/mirror_2.png", tag: "Architectural", desc: "Window style", category: "Mirrors" },
-    { id: 31, name: "Small Travel Mirror", price: "₹499", image: "/images/mirror_1.png", tag: "Compact", desc: "Folding case", category: "Mirrors" }
+    { id: 27, name: "Octagonal Brass Mirror", price: "₹1,499", image: "/images/mirror_1.png", tag: "Geometric", desc: "Gold finish distinctive shape", category: "Mirrors" },
+    { id: 28, name: "Hand-Painted Mirror Frame", price: "₹1,199", image: "/images/mirror_2.png", tag: "Bright", desc: "Floral motif on mango wood", category: "Mirrors" },
+    { id: 29, name: "Jute Rope Round Mirror", price: "₹999", image: "/images/mirror_1.png", tag: "Coastal", desc: "Natural texture frame", category: "Mirrors" },
+    { id: 30, name: "Archway Wall Mirror", price: "₹1,299", image: "/images/mirror_2.png", tag: "Architectural", desc: "Window style reflection", category: "Mirrors" },
+    { id: 31, name: "Small Travel Mirror", price: "₹499", image: "/images/mirror_1.png", tag: "Compact", desc: "Folding brass case", category: "Mirrors" }
+];,
+// --- BATCH 2 (Requested by User) ---
+// Lighting
+{ id: 12, name: "Hand-Beaten Copper Pendant", price: "₹1,299", image: "/images/lamp.png", tag: "Artisan", desc: "Warm glow", category: "Lighting" },
+{ id: 13, name: "Terracotta Table Lamp", price: "₹899", image: "/images/lamp_2.png", tag: "Earthy", desc: "Natural finish", category: "Lighting" },
+{ id: 14, name: "Cutwork Iron Lantern", price: "₹799", image: "/images/lamp_3.png", tag: "Rustic", desc: "Shadow play", category: "Lighting" },
+{ id: 15, name: "Standing Brass Diya", price: "₹1,499", image: "/images/lamp.png", tag: "Traditional", desc: "Ceremonial", category: "Lighting" },
+{ id: 16, name: "Amber Glass Hanging Light", price: "₹1,199", image: "/images/lamp_2.png", tag: "Retro", desc: "Textured glass", category: "Lighting" },
+// Showpieces
+{ id: 17, name: "Marble Lotus Bowl", price: "₹999", image: "/images/vase.png", tag: "Classic", desc: "Agra marble", category: "Showpieces" },
+{ id: 18, name: "Wooden Spice Box", price: "₹1,299", image: "/images/artisan.png", tag: "Essential", desc: "Kitchen staple", category: "Showpieces" },
+{ id: 19, name: "Brass Elephant Figurine", price: "₹699", image: "/images/jar.png", tag: "Lucky", desc: "Solid brass", category: "Showpieces" },
+{ id: 20, name: "Painted Wooden Chowki", price: "₹1,499", image: "/images/artisan.png", tag: "Decor", desc: "Low stool", category: "Showpieces" },
+{ id: 21, name: "Terracotta Water Jug", price: "₹599", image: "/images/jar.png", tag: "Cooling", desc: "Clay fired", category: "Showpieces" },
+// Wall Art
+{ id: 22, name: "Madhubani Painting", price: "₹1,199", image: "/images/wall_hanging.png", tag: "Folk Art", desc: "Hand painted", category: "Wall Art" },
+{ id: 23, name: "Bamboo Wall Fan", price: "₹699", image: "/images/wall_hanging_2.png", tag: "Natural", desc: "Woven split cane", category: "Wall Art" },
+{ id: 24, name: "Kalamkari Fabric Panel", price: "₹1,299", image: "/images/wall_hanging.png", tag: "Textile", desc: "Vegetable dye", category: "Wall Art" },
+{ id: 25, name: "Vintage Key Holder", price: "₹899", image: "/images/wall_hanging_2.png", tag: "Useful", desc: "Reclaimed wood", category: "Wall Art" },
+{ id: 26, name: "Hand-Painted Wooden Mask", price: "₹1,399", image: "/images/wall_hanging.png", tag: "Cultural", desc: "Wall accent", category: "Wall Art" },
+// Mirrors
+{ id: 27, name: "Octagonal Brass Mirror", price: "₹1,499", image: "/images/mirror_1.png", tag: "Geometric", desc: "Gold finish", category: "Mirrors" },
+{ id: 28, name: "Hand-Painted Mirror Frame", price: "₹1,199", image: "/images/mirror_2.png", tag: "Bright", desc: "Floral motif", category: "Mirrors" },
+{ id: 29, name: "Jute Rope Round Mirror", price: "₹999", image: "/images/mirror_1.png", tag: "Coastal", desc: "Natural texture", category: "Mirrors" },
+{ id: 30, name: "Archway Wall Mirror", price: "₹1,299", image: "/images/mirror_2.png", tag: "Architectural", desc: "Window style", category: "Mirrors" },
+{ id: 31, name: "Small Travel Mirror", price: "₹499", image: "/images/mirror_1.png", tag: "Compact", desc: "Folding case", category: "Mirrors" }
 ];
 
 const CATEGORIES = ["All", "Lighting", "Wall Art", "Mirrors", "Showpieces"];
