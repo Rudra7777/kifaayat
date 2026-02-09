@@ -254,313 +254,113 @@ const PRODUCTS_DATA: ProductsData = {
         pricingContext: { headline: "Fair trade", content: "Supporting artisan clusters." },
         details: { material: "Cotton", dimensions: "40x12 in", weight: "100g", finish: "Matte", care: "Cold wash" }
     },
-    // --- BATCH 2 (Requested by User) ---
+    // --- BATCH 2 (Requested by User) - AI Generated Images ---
     12: {
-        id: 12, name: "Hand-Beaten Copper Pendant", price: "₹1,299", image: "/images/wiki_lamp.jpg", tag: "Artisan", desc: "Warm glow", category: "Lighting",
-        availability: "Waitlist", images: ["/images/wiki_lamp.jpg"],
+        id: 12, name: "Hand-Beaten Copper Pendant", price: "₹1,299", tag: "Artisan",
+        availability: "Waitlist", images: ["/images/generated/copper_pendant.png"],
         story: { headline: "Warmth from above", content: ["Hand-beaten copper that glows warmly."] },
         pricingContext: { headline: "Artisan direct", content: "Direct from Moradabad." },
         details: { material: "Copper", dimensions: "10in dia", weight: "800g", finish: "Hammered", care: "Dust" }
     },
     13: {
-        id: 13, name: "Terracotta Table Lamp", price: "₹899", image: "/images/wiki_pot.jpg", tag: "Earthy", desc: "Natural finish", category: "Lighting",
-        availability: "In Stock", images: ["/images/wiki_pot.jpg"],
+        id: 13, name: "Terracotta Table Lamp", price: "₹899", tag: "Earthy",
+        availability: "In Stock", images: ["/images/generated/terracotta_lamp.png"],
         story: { headline: "Earthy illumination", content: ["Natural clay lamp base."] },
         pricingContext: { headline: "Local craft", content: "Potter community support." },
         details: { material: "Terracotta", dimensions: "12in height", weight: "1.5kg", finish: "Raw", care: "Dry cloth" }
     },
     14: {
-        id: 14, name: "Cutwork Iron Lantern", price: "₹799", image: "/images/wiki_lamp.jpg", tag: "Rustic", desc: "Shadow play", category: "Lighting",
-        availability: "In Stock", images: ["/images/wiki_lamp.jpg"],
+        id: 14, name: "Cutwork Iron Lantern", price: "₹799", tag: "Rustic",
+        availability: "In Stock", images: ["/images/generated/iron_lantern.png"],
         story: { headline: "Shadow dancer", content: ["Iron lantern creating intricate shadows."] },
         pricingContext: { headline: "Standard", content: "Market price." },
         details: { material: "Iron", dimensions: "8in height", weight: "600g", finish: "Black coated", care: "Wipe clean" }
     },
     15: {
-        id: 15, name: "Standing Brass Diya", price: "₹1,499", image: "/images/wiki_copper.jpg", tag: "Traditional", desc: "Ceremonial", category: "Lighting",
-        availability: "Last Piece", images: ["/images/wiki_copper.jpg"],
+        id: 15, name: "Standing Brass Diya", price: "₹1,499", tag: "Traditional",
+        availability: "Last Piece", images: ["/images/generated/brass_diya.png"],
         story: { headline: "Sacred light", content: ["Traditional standing lamp for pooja."] },
         pricingContext: { headline: "Brass value", content: "Heavy gauge brass." },
         details: { material: "Brass", dimensions: "18in height", weight: "2kg", finish: "Gold", care: "Pitambari" }
     },
     16: {
-        id: 16, name: "Amber Glass Hanging Light", price: "₹1,199", image: "/images/wiki_lamp.jpg", tag: "Retro", desc: "Textured glass", category: "Lighting",
-        availability: "In Stock", images: ["/images/wiki_lamp.jpg"],
+        id: 16, name: "Amber Glass Hanging Light", price: "₹1,199", tag: "Retro",
+        availability: "In Stock", images: ["/images/generated/amber_glass_light.png"],
         story: { headline: "Retro glow", content: ["Amber glass casting a honey hue."] },
         pricingContext: { headline: "Import replacement", content: "Made locally." },
         details: { material: "Glass", dimensions: "8in dia", weight: "1kg", finish: "Amber", care: "Glass cleaner" }
     },
     // Showpieces
-    17: { id: 17, name: "Marble Lotus Bowl", price: "₹999", image: "/images/wiki_pot.jpg", tag: "Classic", desc: "Agra marble", category: "Showpieces", availability: "In Stock", images: ["/images/wiki_pot.jpg"], story: { headline: "Mughal elegance", content: ["Hand carved marble."] }, pricingContext: { headline: "Direct", content: "Agra artisans." }, details: { material: "Marble", dimensions: "6in", weight: "800g", finish: "Polished", care: "Wipe" } },
-    18: { id: 18, name: "Wooden Spice Box", price: "₹1,299", image: "/images/wiki_cushion.jpg", tag: "Essential", desc: "Kitchen staple", category: "Showpieces", availability: "In Stock", images: ["/images/wiki_cushion.jpg"], story: { headline: "Kitchen heart", content: ["Teak wood spice box."] }, pricingContext: { headline: "Wood value", content: "Old teak." }, details: { material: "Teak", dimensions: "8in", weight: "1kg", finish: "Oil", care: "Dry" } },
-    19: { id: 19, name: "Brass Elephant Figurine", price: "₹699", image: "/images/wiki_copper.jpg", tag: "Lucky", desc: "Solid brass", category: "Showpieces", availability: "In Stock", images: ["/images/wiki_copper.jpg"], story: { headline: "Gentle giant", content: ["Solid brass elephant."] }, pricingContext: { headline: "Metal weight", content: "Solid casting." }, details: { material: "Brass", dimensions: "4in", weight: "500g", finish: "Antique", care: "Wipe" } },
-    20: { id: 20, name: "Painted Wooden Chowki", price: "₹1,499", image: "/images/wiki_mirror.png", tag: "Decor", desc: "Low stool", category: "Showpieces", availability: "One piece", images: ["/images/wiki_mirror.png"], story: { headline: "Royal seat", content: ["Hand painted low stool."] }, pricingContext: { headline: "Art work", content: "Detailed painting." }, details: { material: "Wood", dimensions: "12x12in", weight: "2kg", finish: "Painted", care: "Dry" } },
-    21: { id: 21, name: "Terracotta Water Jug", price: "₹599", image: "/images/wiki_pot.jpg", tag: "Cooling", desc: "Clay fired", category: "Showpieces", availability: "In Stock", images: ["/images/wiki_pot.jpg"], story: { headline: "Cool water", content: ["Natural cooling jug."] }, pricingContext: { headline: "Pottery", content: "Standard." }, details: { material: "Clay", dimensions: "1L", weight: "800g", finish: "Raw", care: "Rinse" } },
+    17: { id: 17, name: "Marble Lotus Bowl", price: "₹999", tag: "Classic", availability: "In Stock", images: ["/images/generated/marble_lotus_bowl.png"], story: { headline: "Mughal elegance", content: ["Hand carved marble."] }, pricingContext: { headline: "Direct", content: "Agra artisans." }, details: { material: "Marble", dimensions: "6in", weight: "800g", finish: "Polished", care: "Wipe" } },
+    18: { id: 18, name: "Wooden Spice Box", price: "₹1,299", tag: "Essential", availability: "In Stock", images: ["/images/generated/wooden_spice_box.png"], story: { headline: "Kitchen heart", content: ["Teak wood spice box."] }, pricingContext: { headline: "Wood value", content: "Old teak." }, details: { material: "Teak", dimensions: "8in", weight: "1kg", finish: "Oil", care: "Dry" } },
+    19: { id: 19, name: "Brass Elephant Figurine", price: "₹699", tag: "Lucky", availability: "In Stock", images: ["/images/generated/brass_elephant.png"], story: { headline: "Gentle giant", content: ["Solid brass elephant."] }, pricingContext: { headline: "Metal weight", content: "Solid casting." }, details: { material: "Brass", dimensions: "4in", weight: "500g", finish: "Antique", care: "Wipe" } },
+    20: { id: 20, name: "Painted Wooden Chowki", price: "₹1,499", tag: "Decor", availability: "One piece", images: ["/images/generated/painted_chowki.png"], story: { headline: "Royal seat", content: ["Hand painted low stool."] }, pricingContext: { headline: "Art work", content: "Detailed painting." }, details: { material: "Wood", dimensions: "12x12in", weight: "2kg", finish: "Painted", care: "Dry" } },
+    21: { id: 21, name: "Terracotta Water Jug", price: "₹599", tag: "Cooling", availability: "In Stock", images: ["/images/generated/terracotta_jug.png"], story: { headline: "Cool water", content: ["Natural cooling jug."] }, pricingContext: { headline: "Pottery", content: "Standard." }, details: { material: "Clay", dimensions: "1L", weight: "800g", finish: "Raw", care: "Rinse" } },
     // Wall Art
-    22: { id: 22, name: "Madhubani Painting", price: "₹1,199", image: "/images/wiki_painting.jpg", tag: "Folk Art", desc: "Hand painted", category: "Wall Art", availability: "Unique", images: ["/images/wiki_painting.jpg"], story: { headline: "Mithila art", content: ["Original painting."] }, pricingContext: { headline: "Artist direct", content: "Bihar cluster." }, details: { material: "Paper", dimensions: "A3", weight: "N/A", finish: "Matte", care: "Frame" } },
-    23: { id: 23, name: "Bamboo Wall Fan", price: "₹699", image: "/images/wiki_painting.jpg", tag: "Natural", desc: "Woven split cane", category: "Wall Art", availability: "In Stock", images: ["/images/wiki_painting.jpg"], story: { headline: "Cool breeze", content: ["Woven bamboo fan."] }, pricingContext: { headline: "Craft", content: "Hand woven." }, details: { material: "Bamboo", dimensions: "12in", weight: "200g", finish: "Natural", care: "Dust" } },
-    24: { id: 24, name: "Kalamkari Fabric Panel", price: "₹1,299", image: "/images/wiki_cushion.jpg", tag: "Textile", desc: "Vegetable dye", category: "Wall Art", availability: "Limited", images: ["/images/wiki_cushion.jpg"], story: { headline: "Pen art", content: ["Kalamkari painting."] }, pricingContext: { headline: "Textile art", content: "Andhra artisans." }, details: { material: "Cotton", dimensions: "20x20in", weight: "100g", finish: "Soft", care: "Dry clean" } },
-    25: { id: 25, name: "Vintage Key Holder", price: "₹899", image: "/images/wiki_mirror.png", tag: "Useful", desc: "Reclaimed wood", category: "Wall Art", availability: "In Stock", images: ["/images/wiki_mirror.png"], story: { headline: "Key keeper", content: ["Reclaimed wood holder."] }, pricingContext: { headline: "Upcycle", content: "Scrap wood." }, details: { material: "Wood", dimensions: "10in", weight: "500g", finish: "Distressed", care: "Wipe" } },
-    26: { id: 26, name: "Hand-Painted Wooden Mask", price: "₹1,399", image: "/images/wiki_painting.jpg", tag: "Cultural", desc: "Wall accent", category: "Wall Art", availability: "Unique", images: ["/images/wiki_painting.jpg"], story: { headline: "Tribal face", content: ["Traditional mask."] }, pricingContext: { headline: "Art", content: "Hand carved." }, details: { material: "Wood", dimensions: "10in", weight: "400g", finish: "Painted", care: "Dust" } },
+    22: { id: 22, name: "Madhubani Painting", price: "₹1,199", tag: "Folk Art", availability: "Unique", images: ["/images/generated/madhubani_painting.png"], story: { headline: "Mithila art", content: ["Original painting."] }, pricingContext: { headline: "Artist direct", content: "Bihar cluster." }, details: { material: "Paper", dimensions: "A3", weight: "N/A", finish: "Matte", care: "Frame" } },
+    23: { id: 23, name: "Bamboo Wall Fan", price: "₹699", tag: "Natural", availability: "In Stock", images: ["/images/generated/bamboo_wall_fan.png"], story: { headline: "Cool breeze", content: ["Woven bamboo fan."] }, pricingContext: { headline: "Craft", content: "Hand woven." }, details: { material: "Bamboo", dimensions: "12in", weight: "200g", finish: "Natural", care: "Dust" } },
+    24: { id: 24, name: "Kalamkari Fabric Panel", price: "₹1,299", tag: "Textile", availability: "Limited", images: ["/images/generated/kalamkari_panel.png"], story: { headline: "Pen art", content: ["Kalamkari painting."] }, pricingContext: { headline: "Textile art", content: "Andhra artisans." }, details: { material: "Cotton", dimensions: "20x20in", weight: "100g", finish: "Soft", care: "Dry clean" } },
+    25: { id: 25, name: "Vintage Key Holder", price: "₹899", tag: "Useful", availability: "In Stock", images: ["/images/generated/vintage_key_holder.png"], story: { headline: "Key keeper", content: ["Reclaimed wood holder."] }, pricingContext: { headline: "Upcycle", content: "Scrap wood." }, details: { material: "Wood", dimensions: "10in", weight: "500g", finish: "Distressed", care: "Wipe" } },
+    26: { id: 26, name: "Hand-Painted Wooden Mask", price: "₹1,399", tag: "Cultural", availability: "Unique", images: ["/images/generated/wooden_mask.png"], story: { headline: "Tribal face", content: ["Traditional mask."] }, pricingContext: { headline: "Art", content: "Hand carved." }, details: { material: "Wood", dimensions: "10in", weight: "400g", finish: "Painted", care: "Dust" } },
     // Mirrors
-    27: { id: 27, name: "Octagonal Brass Mirror", price: "₹1,499", image: "/images/wiki_mirror.png", tag: "Geometric", desc: "Gold finish", category: "Mirrors", availability: "In Stock", images: ["/images/wiki_mirror.png"], story: { headline: "Eight sides", content: ["Geometric brass mirror."] }, pricingContext: { headline: "Metal", content: "Brass frame." }, details: { material: "Brass", dimensions: "12in", weight: "1kg", finish: "Gold", care: "Clean glass" } },
-    28: { id: 28, name: "Hand-Painted Mirror Frame", price: "₹1,199", image: "/images/wiki_mirror.png", tag: "Bright", desc: "Floral motif", category: "Mirrors", availability: "One piece", images: ["/images/wiki_mirror.png"], story: { headline: "Floral reflection", content: ["Painted wood frame."] }, pricingContext: { headline: "Artisan", content: "Hand painted." }, details: { material: "Wood", dimensions: "14in", weight: "1.2kg", finish: "Painted", care: "Clean glass" } },
-    29: { id: 29, name: "Jute Rope Round Mirror", price: "₹999", image: "/images/wiki_mirror.png", tag: "Coastal", desc: "Natural texture", category: "Mirrors", availability: "In Stock", images: ["/images/wiki_mirror.png"], story: { headline: "Nautical feel", content: ["Rope framed mirror."] }, pricingContext: { headline: "Material", content: "Jute rope." }, details: { material: "Jute/Glass", dimensions: "16in", weight: "1.5kg", finish: "Natural", care: "Dust" } },
-    30: { id: 30, name: "Archway Wall Mirror", price: "₹1,299", image: "/images/wiki_mirror.png", tag: "Architectural", desc: "Window style", category: "Mirrors", availability: "In Stock", images: ["/images/wiki_mirror.png"], story: { headline: "Jharokha style", content: ["Arch design."] }, pricingContext: { headline: "Design", content: "Complex frame." }, details: { material: "Wood/Glass", dimensions: "18in", weight: "2kg", finish: "Distressed", care: "Clean glass" } },
-    31: { id: 31, name: "Small Travel Mirror", price: "₹499", image: "/images/wiki_mirror.png", tag: "Compact", desc: "Folding case", category: "Mirrors", availability: "In Stock", images: ["/images/wiki_mirror.png"], story: { headline: "Vanity to go", content: ["Portable mirror."] }, pricingContext: { headline: "Utility", content: "Simple mechanism." }, details: { material: "Brass/Glass", dimensions: "4in", weight: "200g", finish: "Gold", care: "Wipe" } }
-}; tag: "One-of-a-kind",
-    availability: "Only 1 piece available",
-        images: ["/images/vase.png"],
-            story: {
-    headline: "Vessel of history",
-        content: [
-            "This copper vase has likely seen over fifty years of utility before becoming a decorative object. The oxidation on the surface is natural, developed slowly over decades of exposure to air and water.",
-            "Its shape suggests it was originally used for storing water, which in Ayurveda is believed to have health benefits. Today, it stands as a testament to functional beauty."
-        ]
-},
-pricingContext: {
-    headline: "Value in weight",
-        content: "Copper prices have surged, but we priced this based on its artistic value and our acquisition cost from a rural estate sale, keeping it accessible for collectors."
-},
-details: {
-    material: "Pure Copper",
-        dimensions: "Height: 10 inches",
-            weight: "800g",
-                finish: "Oxidized verdigris",
-                    care: "Clean with lemon and salt if brightness is desired, or leave as is for character."
+    27: { id: 27, name: "Octagonal Brass Mirror", price: "₹1,499", tag: "Geometric", availability: "In Stock", images: ["/images/generated/octagonal_brass_mirror.png"], story: { headline: "Eight sides", content: ["Geometric brass mirror."] }, pricingContext: { headline: "Metal", content: "Brass frame." }, details: { material: "Brass", dimensions: "12in", weight: "1kg", finish: "Gold", care: "Clean glass" } },
+    28: { id: 28, name: "Hand-Painted Mirror Frame", price: "₹1,199", tag: "Bright", availability: "One piece", images: ["/images/generated/painted_mirror_frame.png"], story: { headline: "Floral reflection", content: ["Painted wood frame."] }, pricingContext: { headline: "Artisan", content: "Hand painted." }, details: { material: "Wood", dimensions: "14in", weight: "1.2kg", finish: "Painted", care: "Clean glass" } },
+    29: { id: 29, name: "Jute Rope Round Mirror", price: "₹999", tag: "Coastal", availability: "In Stock", images: ["/images/generated/jute_rope_mirror.png"], story: { headline: "Nautical feel", content: ["Rope framed mirror."] }, pricingContext: { headline: "Material", content: "Jute rope." }, details: { material: "Jute/Glass", dimensions: "16in", weight: "1.5kg", finish: "Natural", care: "Dust" } },
+    30: { id: 30, name: "Archway Wall Mirror", price: "₹1,299", tag: "Architectural", availability: "In Stock", images: ["/images/generated/archway_mirror.png"], story: { headline: "Jharokha style", content: ["Arch design."] }, pricingContext: { headline: "Design", content: "Complex frame." }, details: { material: "Wood/Glass", dimensions: "18in", weight: "2kg", finish: "Distressed", care: "Clean glass" } },
+    31: { id: 31, name: "Small Travel Mirror", price: "₹499", tag: "Compact", availability: "In Stock", images: ["/images/generated/travel_mirror.png"], story: { headline: "Vanity to go", content: ["Portable mirror."] }, pricingContext: { headline: "Utility", content: "Simple mechanism." }, details: { material: "Brass/Glass", dimensions: "4in", weight: "200g", finish: "Gold", care: "Wipe" } }
+};
+
+// End of PRODUCTS_DATA
+
+const PRODUCTS_DATA_FIXED = PRODUCTS_DATA;
+
+// Image mapping for new products (AI-generated)
+const NEW_PRODUCT_IMAGES: { [key: number]: string } = {
+    12: "/images/generated/copper_pendant.png",
+    13: "/images/generated/terracotta_lamp.png",
+    14: "/images/generated/iron_lantern.png",
+    15: "/images/generated/brass_diya.png",
+    16: "/images/generated/amber_glass_light.png",
+    17: "/images/generated/marble_lotus_bowl.png",
+    18: "/images/generated/wooden_spice_box.png",
+    19: "/images/generated/brass_elephant.png",
+    20: "/images/generated/painted_chowki.png",
+    21: "/images/generated/terracotta_jug.png",
+    22: "/images/generated/madhubani_painting.png",
+    23: "/images/generated/bamboo_wall_fan.png",
+    24: "/images/generated/kalamkari_panel.png",
+    25: "/images/generated/vintage_key_holder.png",
+    26: "/images/generated/wooden_mask.png",
+    27: "/images/generated/octagonal_brass_mirror.png",
+    28: "/images/generated/painted_mirror_frame.png",
+    29: "/images/generated/jute_rope_mirror.png",
+    30: "/images/generated/archway_mirror.png",
+    31: "/images/generated/travel_mirror.png"
 }
-    },
-4: {
-    id: 4,
-        name: "Hand-Carved Wooden Tray",
-            price: "₹799",
-                tag: "Artisan made",
-                    availability: "2 pieces available",
-                        images: ["/images/artisan.png"],
-                            story: {
-        headline: "Carved from memory",
-            content: [
-                "This tray is hewn from reclaimed teak wood, known for its durability and rich grain. The floral carvings on the rim are done by hand, using simple chisels.",
-                "No two trays are exactly alike. The slight variations in the depth of the carving show the pressure of the artisan's hand."
-            ]
-    },
-    pricingContext: {
-        headline: "Sustainable luxury",
-            content: "Using reclaimed wood reduces cost and environmental impact. We pass these savings on to you, offering a piece of solid teak furniture for the price of plywood."
-    },
-    details: {
-        material: "Reclaimed Teak Wood",
-            dimensions: "12 x 8 inches",
-                weight: "600g",
-                    finish: "Matte wax polish",
-                        care: "Wipe clean. Apply beeswax once a year."
-    }
-},
-5: {
-    id: 5,
-        name: "Ceramic Pickle Jar",
-            price: "₹499",
-                tag: "Vintage",
-                    availability: "Only 1 piece available",
-                        images: ["/images/jar.png"],
-                            story: {
-        headline: "The flavor of tradition",
-            content: [
-                "A staple in Indian households for generations, these ceramic jars (barnis) were used to store pickles and chutneys. The ceramic material keeps the contents cool and preserved.",
-                "The blue and white glaze is typical of Jaipur pottery, influenced by Persian ceramics but distinctly Indian in execution."
-            ]
-    },
-    pricingContext: {
-        headline: "Accessible heritage",
-            content: "We found a batch of these in an old warehouse. We believe heritage should be affordable, so we've kept the margin minimal to help find them new homes."
-    },
-    details: {
-        material: "Glazed Ceramic",
-            dimensions: "Height: 8 inches",
-                weight: "1.5 kg",
-                    finish: "Glossy Glaze",
-                        care: "Hand wash with mild soap."
-    }
-},
-6: {
-    id: 6,
-        name: "Woven Jute Wall Hanging",
-            price: "₹899",
-                tag: "One-of-a-kind",
-                    availability: "Only 1 piece available",
-                        images: ["/images/wall_hanging.png"],
-                            story: {
-        headline: "Earth tones",
-            content: [
-                "Woven from natural jute fibers, this wall hanging brings the warmth of the earth indoors. The knotting technique is a local variation of macramé.",
-                "It adds texture and acoustic softness to any room, perfect for breaking up the monotony of flat walls."
-            ]
-    },
-    pricingContext: {
-        headline: "Fair labor",
-            content: "Weaving jute is labor-intensive. Our pricing reflects a fair daily wage for the weaver, not just the cost of the raw fiber."
-    },
-    details: {
-        material: "Natural Jute Fiber",
-            dimensions: "24 x 18 inches",
-                weight: "500g",
-                    finish: "Raw fiber",
-                        care: "Dust with a soft brush or vacuum on low setting."
-    }
-},
-7: {
-    id: 7,
-        name: "Etched Brass Table Lamp",
-            price: "₹1,499",
-                tag: "Timeless",
-                    availability: "Only 1 piece available",
-                        images: ["/images/lamp_2.png"],
-                            story: {
-        headline: "Golden hour, always",
-            content: [
-                "This table lamp features a glass chimney protected by an etched brass shield. When lit, the etching casts lace-like shadows on the surrounding walls.",
-                "It evokes the atmosphere of colonial-era dak bungalows and library reading rooms."
-            ]
-    },
-    pricingContext: {
-        headline: "Complex craft",
-            content: "The price accounts for the two distinct skills required: glass blowing for the chimney and precision metal etching for the body."
-    },
-    details: {
-        material: "Brass and Glass",
-            dimensions: "Height: 14 inches",
-                weight: "1.8 kg",
-                    finish: "Polished Brass",
-                        care: "Dust gently. Glass cleaner for the chimney."
-    }
-},
-8: {
-    id: 8,
-        name: "Mosaic Glass Lantern",
-            price: "₹699",
-                tag: "Handcrafted",
-                    availability: "5 pieces available",
-                        images: ["/images/lamp_3.png"],
-                            story: {
-        headline: "Kaleidoscope of light",
-            content: [
-                "Hundreds of small, hand-cut glass pieces are cemented onto a glass bowl to create this lantern. When illuminated, it bathes the room in a warm, multi-colored glow.",
-                "Inspired by Turkish designs but crafted by artisans in Firozabad, India's city of glass."
-            ]
-    },
-    pricingContext: {
-        headline: "Direct import prices",
-            content: "Comparable lanterns in boutique stores sell for double. We source from the Firozabad factory directly."
-    },
-    details: {
-        material: "Glass and Cement",
-            dimensions: "Diameter: 8 inches",
-                weight: "1 kg",
-                    finish: "Textured Mosaic",
-                        care: "Wipe with a damp cloth."
-    }
-},
-9: {
-    id: 9,
-        name: "Rajasthani Fabric Wall Art",
-            price: "₹1,399",
-                tag: "Statement Piece",
-                    availability: "Only 1 piece available",
-                        images: ["/images/wall_hanging_2.png"],
-                            story: {
-        headline: "Stories in thread",
-            content: [
-                "This large textile piece is a vintage 'Toran' or door hanging, repurposed as wall art. It features motifs of elephants and peacocks, symbols of prosperity and grace in Rajasthan.",
-                "The vibrant colors are derived from natural dyes, and the mirror work (abhla bharat) is intended to deflect the evil eye."
-            ]
-    },
-    pricingContext: {
-        headline: "Vintage value",
-            content: "You are paying for the age and condition of this vintage textile. New pieces do not have the same color depth or density of embroidery."
-    },
-    details: {
-        material: "Cotton and Silk thread",
-            dimensions: "36 x 24 inches",
-                weight: "400g",
-                    finish: "Vintage textile",
-                        care: "Keep away from direct sunlight."
-    }
-},
-10: {
-    id: 10,
-        name: "Carved Wooden Mirror",
-            price: "₹1,499",
-                tag: "Rare Find",
-                    availability: "Only 1 piece available",
-                        images: ["/images/mirror_1.png"],
-                            story: {
-        headline: "Reflecting heritage",
-            content: [
-                "The frame of this mirror is salvaged from an old Haveli window frame. The wood is dense, likely Rosewood or old Teak, and features deep relief carving.",
-                "Repurposing architectural salvage into home decor preserves the craftsmanship of buildings that no longer exist."
-            ]
-    },
-    pricingContext: {
-        headline: "Salvage pricing",
-            content: "Architectural salvage is expensive to source and restore. We've balanced the restoration costs to offer a fair price for a piece of history."
-    },
-    details: {
-        material: "Reclaimed Hardwood",
-            dimensions: "Diameter: 22 inches",
-                weight: "3.5 kg",
-                    finish: "Dark wood stain",
-                        care: "Clean mirror with glass cleaner. Wood polish for frame."
-    }
-},
-11: {
-    id: 11,
-        name: "Sunburst Brass Mirror",
-            price: "₹1,299",
-                tag: "Vintage Style",
-                    availability: "2 pieces available",
-                        images: ["/images/mirror_2.png"],
-                            story: {
-        headline: "Mid-century India",
-            content: [
-                "The sunburst motif became popular in Indian decor in the 60s and 70s. This brass framed mirror captures that retro elegance.",
-                "It serves as a striking focal point in an entryway or above a console table."
-            ]
-    },
-    pricingContext: {
-        headline: "Material worth",
-            content: "Solid brass framing is becoming rare. This price reflects the raw material cost and the detailed metalworking."
-    },
-    details: {
-        material: "Brass and Glass",
-            dimensions: "Diameter: 18 inches",
-                weight: "2 kg",
-                    finish: "Brushed Brass",
-                        care: "Brass polish to maintain shine."
-    }
-},
-    // --- BATCH 2 NEW PRODUCTS (Generic Fallback Data for brevity checking) ---
-    ...Object.fromEntries(
+
+// --- BATCH 2 NEW PRODUCTS (Generic Fallback Data for brevity checking) ---
+const FALLBACK_PRODUCTS_DATA = Object.fromEntries(
     [
-        { id: 12, name: "Hand-Beaten Copper Pendant", price: "₹1,299", img: "/images/lamp.png" },
-        { id: 13, name: "Terracotta Table Lamp", price: "₹899", img: "/images/lamp_2.png" },
-        { id: 14, name: "Cutwork Iron Lantern", price: "₹799", img: "/images/lamp_3.png" },
-        { id: 15, name: "Standing Brass Diya", price: "₹1,499", img: "/images/lamp.png" },
-        { id: 16, name: "Amber Glass Hanging Light", price: "₹1,199", img: "/images/lamp_2.png" },
-        { id: 17, name: "Marble Lotus Bowl", price: "₹999", img: "/images/vase.png" },
-        { id: 18, name: "Wooden Spice Box", price: "₹1,299", img: "/images/artisan.png" },
-        { id: 19, name: "Brass Elephant Figurine", price: "₹699", img: "/images/jar.png" },
-        { id: 20, name: "Painted Wooden Chowki", price: "₹1,499", img: "/images/artisan.png" },
-        { id: 21, name: "Terracotta Water Jug", price: "₹599", img: "/images/jar.png" },
-        { id: 22, name: "Madhubani Painting", price: "₹1,199", img: "/images/wall_hanging.png" },
-        { id: 23, name: "Bamboo Wall Fan", price: "₹699", img: "/images/wall_hanging_2.png" },
-        { id: 24, name: "Kalamkari Fabric Panel", price: "₹1,299", img: "/images/wall_hanging.png" },
-        { id: 25, name: "Vintage Key Holder", price: "₹899", img: "/images/wall_hanging_2.png" },
-        { id: 26, name: "Hand-Painted Wooden Mask", price: "₹1,399", img: "/images/wall_hanging.png" },
-        { id: 27, name: "Octagonal Brass Mirror", price: "₹1,499", img: "/images/mirror_1.png" },
-        { id: 28, name: "Hand-Painted Mirror Frame", price: "₹1,199", img: "/images/mirror_2.png" },
-        { id: 29, name: "Jute Rope Round Mirror", price: "₹999", img: "/images/mirror_1.png" },
-        { id: 30, name: "Archway Wall Mirror", price: "₹1,299", img: "/images/mirror_2.png" },
-        { id: 31, name: "Small Travel Mirror", price: "₹499", img: "/images/mirror_1.png" }
+        { id: 12, name: "Hand-Beaten Copper Pendant", price: "₹1,299" },
+        { id: 13, name: "Terracotta Table Lamp", price: "₹899" },
+        { id: 14, name: "Cutwork Iron Lantern", price: "₹799" },
+        { id: 15, name: "Standing Brass Diya", price: "₹1,499" },
+        { id: 16, name: "Amber Glass Hanging Light", price: "₹1,199" },
+        { id: 17, name: "Marble Lotus Bowl", price: "₹999" },
+        { id: 18, name: "Wooden Spice Box", price: "₹1,299" },
+        { id: 19, name: "Brass Elephant Figurine", price: "₹699" },
+        { id: 20, name: "Painted Wooden Chowki", price: "₹1,499" },
+        { id: 21, name: "Terracotta Water Jug", price: "₹599" },
+        { id: 22, name: "Madhubani Painting", price: "₹1,199" },
+        { id: 23, name: "Bamboo Wall Fan", price: "₹699" },
+        { id: 24, name: "Kalamkari Fabric Panel", price: "₹1,299" },
+        { id: 25, name: "Vintage Key Holder", price: "₹899" },
+        { id: 26, name: "Hand-Painted Wooden Mask", price: "₹1,399" },
+        { id: 27, name: "Octagonal Brass Mirror", price: "₹1,499" },
+        { id: 28, name: "Hand-Painted Mirror Frame", price: "₹1,199" },
+        { id: 29, name: "Jute Rope Round Mirror", price: "₹999" },
+        { id: 30, name: "Archway Wall Mirror", price: "₹1,299" },
+        { id: 31, name: "Small Travel Mirror", price: "₹499" }
     ].map(item => [
         item.id,
         {
@@ -569,7 +369,7 @@ details: {
             price: item.price,
             tag: "New Arrival",
             availability: "In Stock",
-            images: [item.img],
+            images: [NEW_PRODUCT_IMAGES[item.id]], // Use the new image mapping
             story: {
                 headline: "Fresh from the artisan",
                 content: ["This piece was recently added to our collection, sourced directly from local craftsmen. It embodies the dedication and skill of traditional Indian artistry."]
@@ -587,8 +387,10 @@ details: {
             }
         }
     ])
-)
-};
+);
+
+// Combine PRODUCTS_DATA and FALLBACK_PRODUCTS_DATA
+const PRODUCTS_DATA_COMBINED = { ...PRODUCTS_DATA_FIXED, ...FALLBACK_PRODUCTS_DATA };
 
 type Props = {
     params: Promise<{
