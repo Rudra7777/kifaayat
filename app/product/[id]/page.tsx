@@ -123,80 +123,80 @@ const PRODUCTS_DATA: ProductsData = {
     },
     4: {
         id: 4,
-        name: "Hand-Carved Wooden Mirror",
-        price: "₹1,499",
-        tag: "Artisan Restoration",
+        name: "Hand-Carved Wooden Tray",
+        price: "₹799",
+        tag: "Artisan made",
         availability: "2 pieces available",
-        images: ["/images/wiki_mirror.png", "/images/wiki_mirror.png"],
+        images: ["/images/artisan.png"],
         story: {
-            headline: "Window to the past",
+            headline: "Carved from memory",
             content: [
-                "A reclaimed window frame from a Haveli in Jodhpur, converted into a mirror. The teak wood has weathered over decades.",
-                "Every crack tells a story of the desert sun and monsoon rains it has withstood."
+                "This tray is hewn from reclaimed teak wood, known for its durability and rich grain. The floral carvings on the rim are done by hand, using simple chisels.",
+                "No two trays are exactly alike. The slight variations in the depth of the carving show the pressure of the artisan's hand."
             ]
         },
         pricingContext: {
-            headline: "Upcycled luxury",
-            content: "Restoration is labor-intensive. The price reflects the carpentry skill required to preserve the old wood while making it functional."
+            headline: "Sustainable luxury",
+            content: "Using reclaimed wood reduces cost and environmental impact. We pass these savings on to you, offering a piece of solid teak furniture for the price of plywood."
         },
         details: {
-            material: "Reclaimed Teak & Glass",
-            dimensions: "18 x 12 inches",
-            weight: "2.5 kg",
-            finish: "Distressed wood",
-            care: "Clean glass with standard cleaner. Wood polish occasionally."
+            material: "Reclaimed Teak Wood",
+            dimensions: "12 x 8 inches",
+            weight: "600g",
+            finish: "Matte wax polish",
+            care: "Wipe clean. Apply beeswax once a year."
         }
     },
     5: {
         id: 5,
-        name: "Blue Pottery Jar",
-        price: "₹699",
-        tag: "Jaipur Special",
-        availability: "5 pieces available",
-        images: ["/images/wiki_pot.jpg", "/images/wiki_pot.jpg"],
+        name: "Ceramic Pickle Jar",
+        price: "₹499",
+        tag: "Vintage",
+        availability: "Only 1 piece available",
+        images: ["/images/jar.png"],
         story: {
-            headline: "Turquoise tradition",
+            headline: "The flavor of tradition",
             content: [
-                "Classic Jaipur Blue Pottery, distinctive for its use of quartz stone powder instead of clay. This technique was introduced by the Mughals.",
-                "This jar is hand-painted with cobalt oxide to achieve its vibrant blue color."
+                "A staple in Indian households for generations, these ceramic jars (barnis) were used to store pickles and chutneys. The ceramic material keeps the contents cool and preserved.",
+                "The blue and white glaze is typical of Jaipur pottery, influenced by Persian ceramics but distinctly Indian in execution."
             ]
         },
         pricingContext: {
-            headline: "Supporting functionality",
-            content: "We buy from a small family workshop in Sanganer that struggles against mass-produced ceramics."
+            headline: "Accessible heritage",
+            content: "We found a batch of these in an old warehouse. We believe heritage should be affordable, so we've kept the margin minimal to help find them new homes."
         },
         details: {
-            material: "Quartz & Glass Frit",
-            dimensions: "Height: 6 inches",
-            weight: "400g",
-            finish: "Glazed",
-            care: "Fragile. Hand wash gently."
+            material: "Glazed Ceramic",
+            dimensions: "Height: 8 inches",
+            weight: "1.5 kg",
+            finish: "Glossy Glaze",
+            care: "Hand wash with mild soap."
         }
     },
     6: {
         id: 6,
-        name: "Woven Sabai Grass Basket",
-        price: "₹599",
-        tag: "Sustainable",
-        availability: "In Stock",
-        images: ["/images/wiki_cushion.jpg", "/images/wiki_cushion.jpg"],
+        name: "Woven Jute Wall Hanging",
+        price: "₹899",
+        tag: "One-of-a-kind",
+        availability: "Only 1 piece available",
+        images: ["/images/wall_hanging.png"],
         story: {
-            headline: "Weaving livelihood",
+            headline: "Earth tones",
             content: [
-                "Handwoven by tribal women in Odisha using Sabai grass. This craft provides financial independence to rural households.",
-                "Sturdy, sustainable, and perfect for organizing or as a planter cover."
+                "Woven from natural jute fibers, this wall hanging brings the warmth of the earth indoors. The knotting technique is a local variation of macramé.",
+                "It adds texture and acoustic softness to any room, perfect for breaking up the monotony of flat walls."
             ]
         },
         pricingContext: {
-            headline: "Green economy",
-            content: "The price ensures fair wages that are significantly higher than agricultural labor rates in the region."
+            headline: "Fair labor",
+            content: "Weaving jute is labor-intensive. Our pricing reflects a fair daily wage for the weaver, not just the cost of the raw fiber."
         },
         details: {
-            material: "Sabai Grass",
-            dimensions: "Diameter: 10 inches",
-            weight: "150g",
-            finish: "Natural fiber",
-            care: "Keep dry. Dust regularly."
+            material: "Natural Jute Fiber",
+            dimensions: "24 x 18 inches",
+            weight: "500g",
+            finish: "Raw fiber",
+            care: "Dust with a soft brush or vacuum on low setting."
         }
     },
     7: {
@@ -204,55 +204,130 @@ const PRODUCTS_DATA: ProductsData = {
         name: "Etched Brass Table Lamp",
         price: "₹1,499",
         tag: "Timeless",
-        availability: "Limited",
-        images: ["/images/wiki_lamp.jpg", "/images/wiki_lamp.jpg"],
-        story: { headline: "Golden hour, always", content: ["Intricately etched brass that casts mesmerizing shadows."] },
-        pricingContext: { headline: "Standard pricing", content: "Comparable to retail, but better quality." },
-        details: { material: "Brass", dimensions: "10x6 in", weight: "1kg", finish: "Polished", care: "Dry cloth" }
+        availability: "Only 1 piece available",
+        images: ["/images/lamp_2.png"],
+        story: {
+            headline: "Golden hour, always",
+            content: [
+                "This table lamp features a glass chimney protected by an etched brass shield. When lit, the etching casts lace-like shadows on the surrounding walls.",
+                "It evokes the atmosphere of colonial-era dak bungalows and library reading rooms."
+            ]
+        },
+        pricingContext: {
+            headline: "Complex craft",
+            content: "The price accounts for the two distinct skills required: glass blowing for the chimney and precision metal etching for the body."
+        },
+        details: {
+            material: "Brass and Glass",
+            dimensions: "Height: 14 inches",
+            weight: "1.8 kg",
+            finish: "Polished Brass",
+            care: "Dust gently. Glass cleaner for the chimney."
+        }
     },
     8: {
         id: 8,
-        name: "Terracotta Hanging Planter",
-        price: "₹399",
-        tag: "Garden",
-        availability: "In Stock",
-        images: ["/images/wiki_pot.jpg", "/images/wiki_pot.jpg"],
-        story: { headline: "Earth to sky", content: ["Simple, breathable clay planter for your balcony."] },
-        pricingContext: { headline: "Local pottery", content: "Direct from Kumbhar colony." },
-        details: { material: "Terracotta", dimensions: "6x6 in", weight: "500g", finish: "Raw", care: "Water safe" }
+        name: "Mosaic Glass Lantern",
+        price: "₹699",
+        tag: "Handcrafted",
+        availability: "5 pieces available",
+        images: ["/images/lamp_3.png"],
+        story: {
+            headline: "Kaleidoscope of light",
+            content: [
+                "Hundreds of small, hand-cut glass pieces are cemented onto a glass bowl to create this lantern. When illuminated, it bathes the room in a warm, multi-colored glow.",
+                "Inspired by Turkish designs but crafted by artisans in Firozabad, India's city of glass."
+            ]
+        },
+        pricingContext: {
+            headline: "Direct import prices",
+            content: "Comparable lanterns in boutique stores sell for double. We source from the Firozabad factory directly."
+        },
+        details: {
+            material: "Glass and Cement",
+            dimensions: "Diameter: 8 inches",
+            weight: "1 kg",
+            finish: "Textured Mosaic",
+            care: "Wipe with a damp cloth."
+        }
     },
     9: {
         id: 9,
-        name: "Hand-Painted Jewellry Box",
-        price: "₹1,299",
-        tag: "Gift",
-        availability: "1 piece",
-        images: ["/images/wiki_mirror.png", "/images/wiki_mirror.png"],
-        story: { headline: "Keeper of treasures", content: ["Miniature painting on wood."] },
-        pricingContext: { headline: "Art piece", content: "Paying for the painting time." },
-        details: { material: "Wood", dimensions: "4x4x3 in", weight: "200g", finish: "Varnished", care: "Dry cloth" }
+        name: "Rajasthani Fabric Wall Art",
+        price: "₹1,399",
+        tag: "Statement Piece",
+        availability: "Only 1 piece available",
+        images: ["/images/wall_hanging_2.png"],
+        story: {
+            headline: "Stories in thread",
+            content: [
+                "This large textile piece is a vintage 'Toran' or door hanging, repurposed as wall art. It features motifs of elephants and peacocks, symbols of prosperity and grace in Rajasthan.",
+                "The vibrant colors are derived from natural dyes, and the mirror work (abhla bharat) is intended to deflect the evil eye."
+            ]
+        },
+        pricingContext: {
+            headline: "Vintage value",
+            content: "You are paying for the age and condition of this vintage textile. New pieces do not have the same color depth or density of embroidery."
+        },
+        details: {
+            material: "Cotton and Silk thread",
+            dimensions: "36 x 24 inches",
+            weight: "400g",
+            finish: "Vintage textile",
+            care: "Keep away from direct sunlight."
+        }
     },
     10: {
         id: 10,
-        name: "Vintage Brass Lassi Glass",
-        price: "₹799",
-        tag: "Vintage",
-        availability: "2 pieces",
-        images: ["/images/wiki_copper.jpg", "/images/wiki_copper.jpg"],
-        story: { headline: "Punjab's heritage", content: ["Heavy bottomed brass glass used for lassi."] },
-        pricingContext: { headline: "Scrap value +", content: "Saved from melting." },
-        details: { material: "Brass", dimensions: "Height: 6 in", weight: "600g", finish: "Patina", care: "Edible safe if tinned" }
+        name: "Carved Wooden Mirror",
+        price: "₹1,499",
+        tag: "Rare Find",
+        availability: "Only 1 piece available",
+        images: ["/images/mirror_1.png"],
+        story: {
+            headline: "Reflecting heritage",
+            content: [
+                "The frame of this mirror is salvaged from an old Haveli window frame. The wood is dense, likely Rosewood or old Teak, and features deep relief carving.",
+                "Repurposing architectural salvage into home decor preserves the craftsmanship of buildings that no longer exist."
+            ]
+        },
+        pricingContext: {
+            headline: "Salvage pricing",
+            content: "Architectural salvage is expensive to source and restore. We've balanced the restoration costs to offer a fair price for a piece of history."
+        },
+        details: {
+            material: "Reclaimed Hardwood",
+            dimensions: "Diameter: 22 inches",
+            weight: "3.5 kg",
+            finish: "Dark wood stain",
+            care: "Clean mirror with glass cleaner. Wood polish for frame."
+        }
     },
     11: {
         id: 11,
-        name: "Block Print Table Runner",
-        price: "₹899",
-        tag: "Textile",
-        availability: "In Stock",
-        images: ["/images/wiki_cushion.jpg", "/images/wiki_cushion.jpg"],
-        story: { headline: "Prints of Bagru", content: ["Traditional mud resist block printing."] },
-        pricingContext: { headline: "Fair trade", content: "Supporting artisan clusters." },
-        details: { material: "Cotton", dimensions: "40x12 in", weight: "100g", finish: "Matte", care: "Cold wash" }
+        name: "Sunburst Brass Mirror",
+        price: "₹1,299",
+        tag: "Vintage Style",
+        availability: "2 pieces available",
+        images: ["/images/mirror_2.png"],
+        story: {
+            headline: "Mid-century India",
+            content: [
+                "The sunburst motif became popular in Indian decor in the 60s and 70s. This brass framed mirror captures that retro elegance.",
+                "It serves as a striking focal point in an entryway or above a console table."
+            ]
+        },
+        pricingContext: {
+            headline: "Material worth",
+            content: "Solid brass framing is becoming rare. This price reflects the raw material cost and the detailed metalworking."
+        },
+        details: {
+            material: "Brass and Glass",
+            dimensions: "Diameter: 18 inches",
+            weight: "2 kg",
+            finish: "Brushed Brass",
+            care: "Brass polish to maintain shine."
+        }
     },
     // --- BATCH 2 (Requested by User) - AI Generated Images ---
     12: {
@@ -312,86 +387,6 @@ const PRODUCTS_DATA: ProductsData = {
 
 // End of PRODUCTS_DATA
 
-const PRODUCTS_DATA_FIXED = PRODUCTS_DATA;
-
-// Image mapping for new products (AI-generated)
-const NEW_PRODUCT_IMAGES: { [key: number]: string } = {
-    12: "/images/generated/copper_pendant.png",
-    13: "/images/generated/terracotta_lamp.png",
-    14: "/images/generated/iron_lantern.png",
-    15: "/images/generated/brass_diya.png",
-    16: "/images/generated/amber_glass_light.png",
-    17: "/images/generated/marble_lotus_bowl.png",
-    18: "/images/generated/wooden_spice_box.png",
-    19: "/images/generated/brass_elephant.png",
-    20: "/images/generated/painted_chowki.png",
-    21: "/images/generated/terracotta_jug.png",
-    22: "/images/generated/madhubani_painting.png",
-    23: "/images/generated/bamboo_wall_fan.png",
-    24: "/images/generated/kalamkari_panel.png",
-    25: "/images/generated/vintage_key_holder.png",
-    26: "/images/generated/wooden_mask.png",
-    27: "/images/generated/octagonal_brass_mirror.png",
-    28: "/images/generated/painted_mirror_frame.png",
-    29: "/images/generated/jute_rope_mirror.png",
-    30: "/images/generated/archway_mirror.png",
-    31: "/images/generated/travel_mirror.png"
-}
-
-// --- BATCH 2 NEW PRODUCTS (Generic Fallback Data for brevity checking) ---
-const FALLBACK_PRODUCTS_DATA = Object.fromEntries(
-    [
-        { id: 12, name: "Hand-Beaten Copper Pendant", price: "₹1,299" },
-        { id: 13, name: "Terracotta Table Lamp", price: "₹899" },
-        { id: 14, name: "Cutwork Iron Lantern", price: "₹799" },
-        { id: 15, name: "Standing Brass Diya", price: "₹1,499" },
-        { id: 16, name: "Amber Glass Hanging Light", price: "₹1,199" },
-        { id: 17, name: "Marble Lotus Bowl", price: "₹999" },
-        { id: 18, name: "Wooden Spice Box", price: "₹1,299" },
-        { id: 19, name: "Brass Elephant Figurine", price: "₹699" },
-        { id: 20, name: "Painted Wooden Chowki", price: "₹1,499" },
-        { id: 21, name: "Terracotta Water Jug", price: "₹599" },
-        { id: 22, name: "Madhubani Painting", price: "₹1,199" },
-        { id: 23, name: "Bamboo Wall Fan", price: "₹699" },
-        { id: 24, name: "Kalamkari Fabric Panel", price: "₹1,299" },
-        { id: 25, name: "Vintage Key Holder", price: "₹899" },
-        { id: 26, name: "Hand-Painted Wooden Mask", price: "₹1,399" },
-        { id: 27, name: "Octagonal Brass Mirror", price: "₹1,499" },
-        { id: 28, name: "Hand-Painted Mirror Frame", price: "₹1,199" },
-        { id: 29, name: "Jute Rope Round Mirror", price: "₹999" },
-        { id: 30, name: "Archway Wall Mirror", price: "₹1,299" },
-        { id: 31, name: "Small Travel Mirror", price: "₹499" }
-    ].map(item => [
-        item.id,
-        {
-            id: item.id,
-            name: item.name,
-            price: item.price,
-            tag: "New Arrival",
-            availability: "In Stock",
-            images: [NEW_PRODUCT_IMAGES[item.id]], // Use the new image mapping
-            story: {
-                headline: "Fresh from the artisan",
-                content: ["This piece was recently added to our collection, sourced directly from local craftsmen. It embodies the dedication and skill of traditional Indian artistry."]
-            },
-            pricingContext: {
-                headline: "Fair Value",
-                content: "Priced to support the artisan community while keeping heritage decor accessible."
-            },
-            details: {
-                material: "Mixed Media",
-                dimensions: "Standard",
-                weight: "1 kg",
-                finish: "Handcrafted",
-                care: "Wipe with soft cloth."
-            }
-        }
-    ])
-);
-
-// Combine PRODUCTS_DATA and FALLBACK_PRODUCTS_DATA
-const PRODUCTS_DATA_COMBINED = { ...PRODUCTS_DATA_FIXED, ...FALLBACK_PRODUCTS_DATA };
-
 type Props = {
     params: Promise<{
         id: string;
@@ -412,6 +407,7 @@ export default async function ProductPage({ params }: Props) {
     // but ideally we should show 404 for production.
     const resolvedParams = await params;
     const productId = Number(resolvedParams.id);
+
     const product = PRODUCTS_DATA[productId] || PRODUCTS_DATA[1];
 
     if (!product) {
