@@ -18,8 +18,14 @@ export default function Navbar() {
 
                 {/* Desktop Nav */}
                 <div className="flex items-center gap-6 md:gap-8">
+                    <Link href="/" className="text-sm font-medium text-brand-brown/70 hover:text-brand-dark transition-colors">
+                        Home
+                    </Link>
                     <Link href="/collection" className="text-sm font-medium text-brand-brown/70 hover:text-brand-dark transition-colors">
                         Collection
+                    </Link>
+                    <Link href="/about-us" className="text-sm font-medium text-brand-brown/70 hover:text-brand-dark transition-colors">
+                        About Us
                     </Link>
 
                     <Link href="/cart" className="relative group">

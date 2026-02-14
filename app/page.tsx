@@ -1,10 +1,8 @@
 import Hero from './components/Hero';
 import TrustStrip from './components/TrustStrip';
 import BrandStory from './components/BrandStory';
-import Process from './components/Process';
 import FeaturedCollection from './components/FeaturedCollection';
 import EmotionalSection from './components/EmotionalSection';
-import Footer from './components/Footer';
 
 export default function Home() {
     return (
@@ -12,7 +10,6 @@ export default function Home() {
             <Hero />
             <TrustStrip />
             <BrandStory />
-            <Process />
             <FeaturedCollection />
             <EmotionalSection />
         </main>

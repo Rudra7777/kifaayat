@@ -39,7 +39,7 @@ export default function Footer() {
                     <div>
                         <h3 className="mb-6 font-serif text-lg text-white">Company</h3>
                         <ul className="space-y-4 text-sm opacity-70 font-sans">
-                            <li><a href="#" className="hover:text-brand-terracotta transition-colors">Our Story</a></li>
+                            <li><Link href="/about-us" className="hover:text-brand-terracotta transition-colors">About Us</Link></li>
                             <li><a href="#" className="hover:text-brand-terracotta transition-colors">Sustainability</a></li>
                             <li><a href="#" className="hover:text-brand-terracotta transition-colors">Contact Us</a></li>
                             <li><a href="#" className="hover:text-brand-terracotta transition-colors">Returns</a></li>
