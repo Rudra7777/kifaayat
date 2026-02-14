@@ -26,7 +26,7 @@ const PRODUCTS = [
     },
     {
         id: 3,
-        name: "Antique Copper Vase",
+        name: "Jute Terracotta Vase",
         price: "₹1,299",
         image: "/images/vase.png",
         tag: "One-of-a-kind",
@@ -118,7 +118,7 @@ const PRODUCTS = [
     { id: 18, name: "Wooden Spice Box", price: "₹1,299", image: "/images/generated/wooden_spice_box.png", tag: "Essential", desc: "Kitchen staple", category: "Showpieces" },
     { id: 19, name: "Brass Elephant Figurine", price: "₹699", image: "/images/generated/brass_elephant.png", tag: "Lucky", desc: "Solid brass", category: "Showpieces" },
     { id: 20, name: "Painted Wooden Chowki", price: "₹1,499", image: "/images/generated/painted_chowki.png", tag: "Decor", desc: "Low stool", category: "Showpieces" },
-    { id: 21, name: "Terracotta Water Jug", price: "₹599", image: "/images/generated/terracotta_jug.png", tag: "Cooling", desc: "Clay fired", category: "Showpieces" },
+    { id: 21, name: "Terracotta Vase", price: "₹599", image: "/images/generated/terracotta_jug.png", tag: "Cooling", desc: "Clay fired", category: "Showpieces" },
     // Wall Art
     { id: 22, name: "Madhubani Painting", price: "₹1,199", image: "/images/generated/madhubani_painting.png", tag: "Folk Art", desc: "Hand painted", category: "Wall Art" },
     { id: 23, name: "Bamboo Wall Fan", price: "₹699", image: "/images/generated/bamboo_wall_fan.png", tag: "Natural", desc: "Woven split cane", category: "Wall Art" },

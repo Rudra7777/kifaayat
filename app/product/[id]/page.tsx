@@ -48,7 +48,7 @@ const PRODUCTS_DATA: ProductsData = {
         price: "₹999",
         tag: "One-of-a-kind • Artisan made",
         availability: "Only 1 piece available",
-        images: ["/images/wiki_lamp.jpg", "/images/wiki_lamp.jpg"],
+        images: ["/images/lamp.png", "/images/wiki_lamp.jpg"],
         story: {
             headline: "Why this piece is special",
             content: [
@@ -75,7 +75,7 @@ const PRODUCTS_DATA: ProductsData = {
         price: "₹899",
         tag: "Limited Stock",
         availability: "3 pieces available",
-        images: ["/images/wiki_cushion.jpg", "/images/wiki_cushion.jpg"],
+        images: ["/images/cushion.png", "/images/wiki_cushion.jpg"],
         story: {
             headline: "A stitch in time",
             content: [
@@ -97,11 +97,11 @@ const PRODUCTS_DATA: ProductsData = {
     },
     3: {
         id: 3,
-        name: "Antique Copper Vase",
+        name: "Jute Terracotta Vase",
         price: "₹1,299",
         tag: "Vintage Find",
         availability: "Only 1 piece available",
-        images: ["/images/wiki_copper.jpg", "/images/wiki_copper.jpg"],
+        images: ["/images/vase.png", "/images/wiki_copper.jpg"],
         story: {
             headline: "Vessel of history",
             content: [
@@ -370,7 +370,7 @@ const PRODUCTS_DATA: ProductsData = {
     18: { id: 18, name: "Wooden Spice Box", price: "₹1,299", tag: "Essential", availability: "In Stock", images: ["/images/generated/wooden_spice_box.png"], story: { headline: "Kitchen heart", content: ["Teak wood spice box."] }, pricingContext: { headline: "Wood value", content: "Old teak." }, details: { material: "Teak", dimensions: "8in", weight: "1kg", finish: "Oil", care: "Dry" } },
     19: { id: 19, name: "Brass Elephant Figurine", price: "₹699", tag: "Lucky", availability: "In Stock", images: ["/images/generated/brass_elephant.png"], story: { headline: "Gentle giant", content: ["Solid brass elephant."] }, pricingContext: { headline: "Metal weight", content: "Solid casting." }, details: { material: "Brass", dimensions: "4in", weight: "500g", finish: "Antique", care: "Wipe" } },
     20: { id: 20, name: "Painted Wooden Chowki", price: "₹1,499", tag: "Decor", availability: "One piece", images: ["/images/generated/painted_chowki.png"], story: { headline: "Royal seat", content: ["Hand painted low stool."] }, pricingContext: { headline: "Art work", content: "Detailed painting." }, details: { material: "Wood", dimensions: "12x12in", weight: "2kg", finish: "Painted", care: "Dry" } },
-    21: { id: 21, name: "Terracotta Water Jug", price: "₹599", tag: "Cooling", availability: "In Stock", images: ["/images/generated/terracotta_jug.png"], story: { headline: "Cool water", content: ["Natural cooling jug."] }, pricingContext: { headline: "Pottery", content: "Standard." }, details: { material: "Clay", dimensions: "1L", weight: "800g", finish: "Raw", care: "Rinse" } },
+    21: { id: 21, name: "Terracotta Vase", price: "₹599", tag: "Cooling", availability: "In Stock", images: ["/images/generated/terracotta_jug.png"], story: { headline: "Cool water", content: ["Natural cooling jug."] }, pricingContext: { headline: "Pottery", content: "Standard." }, details: { material: "Clay", dimensions: "1L", weight: "800g", finish: "Raw", care: "Rinse" } },
     // Wall Art
     22: { id: 22, name: "Madhubani Painting", price: "₹1,199", tag: "Folk Art", availability: "Unique", images: ["/images/generated/madhubani_painting.png"], story: { headline: "Mithila art", content: ["Original painting."] }, pricingContext: { headline: "Artist direct", content: "Bihar cluster." }, details: { material: "Paper", dimensions: "A3", weight: "N/A", finish: "Matte", care: "Frame" } },
     23: { id: 23, name: "Bamboo Wall Fan", price: "₹699", tag: "Natural", availability: "In Stock", images: ["/images/generated/bamboo_wall_fan.png"], story: { headline: "Cool breeze", content: ["Woven bamboo fan."] }, pricingContext: { headline: "Craft", content: "Hand woven." }, details: { material: "Bamboo", dimensions: "12in", weight: "200g", finish: "Natural", care: "Dust" } },
