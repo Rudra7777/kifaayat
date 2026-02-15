@@ -48,7 +48,7 @@ const PRODUCTS_DATA: ProductsData = {
         price: "₹999",
         tag: "One-of-a-kind • Artisan made",
         availability: "Only 1 piece available",
-        images: ["/images/lamp.png", "/images/wiki_lamp.jpg"],
+        images: ["/images/lamp.png"],
         story: {
             headline: "Why this piece is special",
             content: [

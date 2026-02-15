@@ -32,9 +32,9 @@ export default function Hero() {
                         <span className="relative z-10 font-medium font-sans tracking-wide">Explore the Collection</span>
                     </Link>
 
-                    <button className="group flex items-center gap-2 px-8 py-4 !text-white hover:!text-brand-terracotta transition-colors backdrop-blur-sm bg-white/10">
+                    <Link href="/about-us" className="group flex items-center gap-2 px-8 py-4 !text-white hover:!text-brand-terracotta transition-colors backdrop-blur-sm bg-white/10">
                         <span className="font-medium font-sans tracking-wide border-b border-white/40 pb-0.5 group-hover:border-brand-terracotta">See how it works</span>
-                    </button>
+                    </Link>
                 </div>
             </div>
         </section >
